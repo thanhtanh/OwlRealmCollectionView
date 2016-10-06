@@ -92,5 +92,5 @@ Explain the screenshot:
 
 # License
 
-OwlCollectionView is released under the MIT license. See LICENSE for details.
+OwlRealmCollectionView is released under the MIT license. See LICENSE for details.
 
