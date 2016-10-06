@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8760C45AE399FBAA414AE0AB /* Pods_OwlRealmCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DC8F5A5DC687F0E848633F /* Pods_OwlRealmCollectionView.framework */; };
+		C1BF7BD71DA4A682004F8AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7BD61DA4A682004F8AFA /* AppDelegate.swift */; };
+		C1BF7BD91DA4A682004F8AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7BD81DA4A682004F8AFA /* ViewController.swift */; };
+		C1BF7BDC1DA4A682004F8AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BF7BDA1DA4A682004F8AFA /* Main.storyboard */; };
+		C1BF7BDE1DA4A682004F8AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BF7BDD1DA4A682004F8AFA /* Assets.xcassets */; };
+		C1BF7BE11DA4A682004F8AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BF7BDF1DA4A682004F8AFA /* LaunchScreen.storyboard */; };
+		C1BF7BEC1DA4A682004F8AFA /* OwlRealmCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7BEB1DA4A682004F8AFA /* OwlRealmCollectionViewTests.swift */; };
+		C1BF7BF71DA4A682004F8AFA /* OwlRealmCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7BF61DA4A682004F8AFA /* OwlRealmCollectionViewUITests.swift */; };
+		C1BF7C071DA4D7B6004F8AFA /* OwlRealmCVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7C051DA4D7B6004F8AFA /* OwlRealmCVDataSource.swift */; };
+		C1BF7C081DA4D7B6004F8AFA /* OwlRealmCVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7C061DA4D7B6004F8AFA /* OwlRealmCVDelegate.swift */; };
+		C1BF7C0C1DA4DCBF004F8AFA /* Owl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7C091DA4DCBF004F8AFA /* Owl.swift */; };
+		C1BF7C0D1DA4DCBF004F8AFA /* OwlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7C0A1DA4DCBF004F8AFA /* OwlCell.swift */; };
+		C1BF7C0E1DA4DCBF004F8AFA /* OwlDel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7C0B1DA4DCBF004F8AFA /* OwlDel.swift */; };
+		C1BF7C101DA4DD57004F8AFA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7C0F1DA4DD57004F8AFA /* UIColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1BF7BE81DA4A682004F8AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BF7BCB1DA4A681004F8AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BF7BD21DA4A681004F8AFA;
+			remoteInfo = OwlRealmCollectionView;
+		};
+		C1BF7BF31DA4A682004F8AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BF7BCB1DA4A681004F8AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BF7BD21DA4A681004F8AFA;
+			remoteInfo = OwlRealmCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76DC8F5A5DC687F0E848633F /* Pods_OwlRealmCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwlRealmCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF349B94B7553BABA2E2C13 /* Pods-OwlRealmCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlRealmCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwlRealmCollectionView/Pods-OwlRealmCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		C1BF7BD31DA4A681004F8AFA /* OwlRealmCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlRealmCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BF7BD61DA4A682004F8AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1BF7BD81DA4A682004F8AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1BF7BDB1DA4A682004F8AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1BF7BDD1DA4A682004F8AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1BF7BE01DA4A682004F8AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1BF7BE21DA4A682004F8AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BF7BE71DA4A682004F8AFA /* OwlRealmCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlRealmCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BF7BEB1DA4A682004F8AFA /* OwlRealmCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlRealmCollectionViewTests.swift; sourceTree = "<group>"; };
+		C1BF7BED1DA4A682004F8AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BF7BF21DA4A682004F8AFA /* OwlRealmCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlRealmCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BF7BF61DA4A682004F8AFA /* OwlRealmCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlRealmCollectionViewUITests.swift; sourceTree = "<group>"; };
+		C1BF7BF81DA4A682004F8AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BF7C051DA4D7B6004F8AFA /* OwlRealmCVDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwlRealmCVDataSource.swift; sourceTree = "<group>"; };
+		C1BF7C061DA4D7B6004F8AFA /* OwlRealmCVDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwlRealmCVDelegate.swift; sourceTree = "<group>"; };
+		C1BF7C091DA4DCBF004F8AFA /* Owl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owl.swift; sourceTree = "<group>"; };
+		C1BF7C0A1DA4DCBF004F8AFA /* OwlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwlCell.swift; sourceTree = "<group>"; };
+		C1BF7C0B1DA4DCBF004F8AFA /* OwlDel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwlDel.swift; sourceTree = "<group>"; };
+		C1BF7C0F1DA4DD57004F8AFA /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		EB231B0CD6424ECE19BF18DB /* Pods-OwlRealmCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlRealmCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwlRealmCollectionView/Pods-OwlRealmCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BF7BD01DA4A681004F8AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8760C45AE399FBAA414AE0AB /* Pods_OwlRealmCollectionView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF7BE41DA4A682004F8AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF7BEF1DA4A682004F8AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7CA26A0BE595E8A7340D52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76DC8F5A5DC687F0E848633F /* Pods_OwlRealmCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69185268F7DD9468D5C42749 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB231B0CD6424ECE19BF18DB /* Pods-OwlRealmCollectionView.debug.xcconfig */,
+				9AF349B94B7553BABA2E2C13 /* Pods-OwlRealmCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1BF7BCA1DA4A681004F8AFA = {
+			isa = PBXGroup;
+			children = (
+				C1BF7C041DA4D702004F8AFA /* Example */,
+				3E7CA26A0BE595E8A7340D52 /* Frameworks */,
+				C1BF7BD51DA4A681004F8AFA /* OwlRealmCollectionView */,
+				C1BF7BEA1DA4A682004F8AFA /* OwlRealmCollectionViewTests */,
+				C1BF7BF51DA4A682004F8AFA /* OwlRealmCollectionViewUITests */,
+				69185268F7DD9468D5C42749 /* Pods */,
+				C1BF7BD41DA4A681004F8AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BF7BD41DA4A681004F8AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF7BD31DA4A681004F8AFA /* OwlRealmCollectionView.app */,
+				C1BF7BE71DA4A682004F8AFA /* OwlRealmCollectionViewTests.xctest */,
+				C1BF7BF21DA4A682004F8AFA /* OwlRealmCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BF7BD51DA4A681004F8AFA /* OwlRealmCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF7C051DA4D7B6004F8AFA /* OwlRealmCVDataSource.swift */,
+				C1BF7C061DA4D7B6004F8AFA /* OwlRealmCVDelegate.swift */,
+			);
+			path = OwlRealmCollectionView;
+			sourceTree = "<group>";
+		};
+		C1BF7BEA1DA4A682004F8AFA /* OwlRealmCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF7BED1DA4A682004F8AFA /* Info.plist */,
+				C1BF7BEB1DA4A682004F8AFA /* OwlRealmCollectionViewTests.swift */,
+			);
+			path = OwlRealmCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		C1BF7BF51DA4A682004F8AFA /* OwlRealmCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF7BF81DA4A682004F8AFA /* Info.plist */,
+				C1BF7BF61DA4A682004F8AFA /* OwlRealmCollectionViewUITests.swift */,
+			);
+			path = OwlRealmCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		C1BF7C041DA4D702004F8AFA /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF7BD61DA4A682004F8AFA /* AppDelegate.swift */,
+				C1BF7BDD1DA4A682004F8AFA /* Assets.xcassets */,
+				C1BF7BE21DA4A682004F8AFA /* Info.plist */,
+				C1BF7BDF1DA4A682004F8AFA /* LaunchScreen.storyboard */,
+				C1BF7BDA1DA4A682004F8AFA /* Main.storyboard */,
+				C1BF7C091DA4DCBF004F8AFA /* Owl.swift */,
+				C1BF7C0A1DA4DCBF004F8AFA /* OwlCell.swift */,
+				C1BF7C0B1DA4DCBF004F8AFA /* OwlDel.swift */,
+				C1BF7C0F1DA4DD57004F8AFA /* UIColorExtension.swift */,
+				C1BF7BD81DA4A682004F8AFA /* ViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BF7BD21DA4A681004F8AFA /* OwlRealmCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BF7BFB1DA4A682004F8AFA /* Build configuration list for PBXNativeTarget "OwlRealmCollectionView" */;
+			buildPhases = (
+				15F68FB06A6B3A2E9C318646 /* [CP] Check Pods Manifest.lock */,
+				C1BF7BCF1DA4A681004F8AFA /* Sources */,
+				C1BF7BD01DA4A681004F8AFA /* Frameworks */,
+				C1BF7BD11DA4A681004F8AFA /* Resources */,
+				F82509FB8B9AE898589615FB /* [CP] Embed Pods Frameworks */,
+				85568A920E373D964C5C08BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OwlRealmCollectionView;
+			productName = OwlRealmCollectionView;
+			productReference = C1BF7BD31DA4A681004F8AFA /* OwlRealmCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1BF7BE61DA4A682004F8AFA /* OwlRealmCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BF7BFE1DA4A682004F8AFA /* Build configuration list for PBXNativeTarget "OwlRealmCollectionViewTests" */;
+			buildPhases = (
+				C1BF7BE31DA4A682004F8AFA /* Sources */,
+				C1BF7BE41DA4A682004F8AFA /* Frameworks */,
+				C1BF7BE51DA4A682004F8AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BF7BE91DA4A682004F8AFA /* PBXTargetDependency */,
+			);
+			name = OwlRealmCollectionViewTests;
+			productName = OwlRealmCollectionViewTests;
+			productReference = C1BF7BE71DA4A682004F8AFA /* OwlRealmCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1BF7BF11DA4A682004F8AFA /* OwlRealmCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BF7C011DA4A682004F8AFA /* Build configuration list for PBXNativeTarget "OwlRealmCollectionViewUITests" */;
+			buildPhases = (
+				C1BF7BEE1DA4A682004F8AFA /* Sources */,
+				C1BF7BEF1DA4A682004F8AFA /* Frameworks */,
+				C1BF7BF01DA4A682004F8AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BF7BF41DA4A682004F8AFA /* PBXTargetDependency */,
+			);
+			name = OwlRealmCollectionViewUITests;
+			productName = OwlRealmCollectionViewUITests;
+			productReference = C1BF7BF21DA4A682004F8AFA /* OwlRealmCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BF7BCB1DA4A681004F8AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = t4nhpt;
+				TargetAttributes = {
+					C1BF7BD21DA4A681004F8AFA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C1BF7BE61DA4A682004F8AFA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1BF7BD21DA4A681004F8AFA;
+					};
+					C1BF7BF11DA4A682004F8AFA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1BF7BD21DA4A681004F8AFA;
+					};
+				};
+			};
+			buildConfigurationList = C1BF7BCE1DA4A681004F8AFA /* Build configuration list for PBXProject "OwlRealmCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BF7BCA1DA4A681004F8AFA;
+			productRefGroup = C1BF7BD41DA4A681004F8AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BF7BD21DA4A681004F8AFA /* OwlRealmCollectionView */,
+				C1BF7BE61DA4A682004F8AFA /* OwlRealmCollectionViewTests */,
+				C1BF7BF11DA4A682004F8AFA /* OwlRealmCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1BF7BD11DA4A681004F8AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF7BE11DA4A682004F8AFA /* LaunchScreen.storyboard in Resources */,
+				C1BF7BDE1DA4A682004F8AFA /* Assets.xcassets in Resources */,
+				C1BF7BDC1DA4A682004F8AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF7BE51DA4A682004F8AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF7BF01DA4A682004F8AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F68FB06A6B3A2E9C318646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85568A920E373D964C5C08BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwlRealmCollectionView/Pods-OwlRealmCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82509FB8B9AE898589615FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwlRealmCollectionView/Pods-OwlRealmCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BF7BCF1DA4A681004F8AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF7C0D1DA4DCBF004F8AFA /* OwlCell.swift in Sources */,
+				C1BF7C081DA4D7B6004F8AFA /* OwlRealmCVDelegate.swift in Sources */,
+				C1BF7BD91DA4A682004F8AFA /* ViewController.swift in Sources */,
+				C1BF7C101DA4DD57004F8AFA /* UIColorExtension.swift in Sources */,
+				C1BF7C071DA4D7B6004F8AFA /* OwlRealmCVDataSource.swift in Sources */,
+				C1BF7C0C1DA4DCBF004F8AFA /* Owl.swift in Sources */,
+				C1BF7C0E1DA4DCBF004F8AFA /* OwlDel.swift in Sources */,
+				C1BF7BD71DA4A682004F8AFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF7BE31DA4A682004F8AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF7BEC1DA4A682004F8AFA /* OwlRealmCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF7BEE1DA4A682004F8AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF7BF71DA4A682004F8AFA /* OwlRealmCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1BF7BE91DA4A682004F8AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BF7BD21DA4A681004F8AFA /* OwlRealmCollectionView */;
+			targetProxy = C1BF7BE81DA4A682004F8AFA /* PBXContainerItemProxy */;
+		};
+		C1BF7BF41DA4A682004F8AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BF7BD21DA4A681004F8AFA /* OwlRealmCollectionView */;
+			targetProxy = C1BF7BF31DA4A682004F8AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1BF7BDA1DA4A682004F8AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BF7BDB1DA4A682004F8AFA /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		C1BF7BDF1DA4A682004F8AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BF7BE01DA4A682004F8AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1BF7BF91DA4A682004F8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1BF7BFA1DA4A682004F8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BF7BFC1DA4A682004F8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB231B0CD6424ECE19BF18DB /* Pods-OwlRealmCollectionView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.t4nhpt.OwlRealmCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C1BF7BFD1DA4A682004F8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF349B94B7553BABA2E2C13 /* Pods-OwlRealmCollectionView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.t4nhpt.OwlRealmCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C1BF7BFF1DA4A682004F8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OwlRealmCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.t4nhpt.OwlRealmCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlRealmCollectionView.app/OwlRealmCollectionView";
+			};
+			name = Debug;
+		};
+		C1BF7C001DA4A682004F8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OwlRealmCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.t4nhpt.OwlRealmCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlRealmCollectionView.app/OwlRealmCollectionView";
+			};
+			name = Release;
+		};
+		C1BF7C021DA4A682004F8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OwlRealmCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.t4nhpt.OwlRealmCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OwlRealmCollectionView;
+			};
+			name = Debug;
+		};
+		C1BF7C031DA4A682004F8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OwlRealmCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.t4nhpt.OwlRealmCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OwlRealmCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BF7BCE1DA4A681004F8AFA /* Build configuration list for PBXProject "OwlRealmCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF7BF91DA4A682004F8AFA /* Debug */,
+				C1BF7BFA1DA4A682004F8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BF7BFB1DA4A682004F8AFA /* Build configuration list for PBXNativeTarget "OwlRealmCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF7BFC1DA4A682004F8AFA /* Debug */,
+				C1BF7BFD1DA4A682004F8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BF7BFE1DA4A682004F8AFA /* Build configuration list for PBXNativeTarget "OwlRealmCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF7BFF1DA4A682004F8AFA /* Debug */,
+				C1BF7C001DA4A682004F8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BF7C011DA4A682004F8AFA /* Build configuration list for PBXNativeTarget "OwlRealmCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF7C021DA4A682004F8AFA /* Debug */,
+				C1BF7C031DA4A682004F8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BF7BCB1DA4A681004F8AFA /* Project object */;
+}
