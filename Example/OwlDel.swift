@@ -9,7 +9,7 @@
 import UIKit
 
 class OwlDel: OwlRealmCVDelegate {
-    var vc: ViewController!
+    weak var vc: ViewController!
     
     class func delegateForCV(grid:UICollectionView,
                              withVC vc:ViewController,

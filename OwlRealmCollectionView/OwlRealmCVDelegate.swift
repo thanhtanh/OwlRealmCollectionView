@@ -51,7 +51,7 @@ class OwlRealmCVDelegate: NSObject {
         return self.fetchedResults[indexPath.row]
     }
     
-    func performChange(deletions:[Int], insertions:[Int], modifications:[Int]) {
+    private func performChange(deletions:[Int], insertions:[Int], modifications:[Int]) {
         collectionView.performBatchUpdates({ [unowned self] in
             
             self.collectionView.deleteItems(at: deletions.map({IndexPath(row:$0, section: 0)}))
@@ -59,6 +59,12 @@ class OwlRealmCVDelegate: NSObject {
             self.collectionView.reloadItems(at: modifications.map({IndexPath(row:$0, section: 0)}))
             
         }) { _ in
+        }
+    }
+    
+    func disposeListener() {
+        if let token = self.token {
+            token.stop()
         }
     }
 }

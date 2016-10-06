@@ -53,16 +53,16 @@ class ViewController: UIViewController {
             
             var owl = Owl()
             let result = realm.objects(Owl.self).filter(predicate)
-            if (result.count > 0) {
+            if (result.count > 0) { // If object existed
                 owl = result[0]
-            } else {
+            } else { // else, create a new one
                 isNewEntity = true
                 realm.add(owl)
             }
             
-            if randNum == 2 && !isNewEntity {
+            if randNum == 2 && !isNewEntity { // Test delete action
                 realm.delete(owl)
-            } else if randNum == 4 && !isNewEntity {
+            } else if randNum == 4 && !isNewEntity { // Test re-arrange item after change value
                 owl.height = 1
             } else {
                 let color = UIColor.generateRandomColorHexString()
